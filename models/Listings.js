@@ -59,7 +59,10 @@ const ListingsSchema = new Schema({
   shared: {
     type: String,
   },
-  photo: {
+  parking: {
+    type: String,
+  },
+  photo_url: {
     type: String,
   },
   // numberOfGuests: {

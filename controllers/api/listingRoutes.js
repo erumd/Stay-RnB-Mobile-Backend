@@ -34,7 +34,8 @@ router.post(`/`, async (req, res) => {
       wifi: req.body.wifi,
       contact: req.body.contact,
       shared: req.body.shared,
-      photo: req.body.photo_url,
+      parking: req.body.parking,
+      photo_url: req.body.photo_url,
     });
     // await db.User.findOneAndUpdate(
     //   { _id: req.session.userId },
